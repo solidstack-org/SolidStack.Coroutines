@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\Unity\com.solidstack.coroutines\Runtime\Coroutine.cs" Link="Coroutine.cs" />
+    <Compile Include="..\..\Unity\com.solidstack.coroutines\Runtime\CoroutineService.cs" Link="CoroutineService.cs" />
+    <Compile Include="..\..\Unity\com.solidstack.coroutines\Runtime\CoroutineTickResult.cs" Link="CoroutineTickResult.cs" />
+    <Compile Include="..\..\Unity\com.solidstack.coroutines\Runtime\IAsyncOperation.cs" Link="IAsyncOperation.cs" />
+    <Compile Include="..\..\Unity\com.solidstack.coroutines\Runtime\ICoroutine.cs" Link="ICoroutine.cs" />
+    <Compile Include="..\..\Unity\com.solidstack.coroutines\Runtime\ICoroutineService.cs" Link="ICoroutineService.cs" />
+    <Compile Include="..\..\Unity\com.solidstack.coroutines\Runtime\ICoroutineTickResult.cs" Link="ICoroutineTickResult.cs" />
+    <Compile Include="..\..\Unity\com.solidstack.coroutines\Runtime\WaitForFixedTickOperation.cs" Link="WaitForFixedTickOperation.cs" />
+    <Compile Include="..\..\Unity\com.solidstack.coroutines\Runtime\WaitForLateTickOperation.cs" Link="WaitForLateTickOperation.cs" />
+  </ItemGroup>
+
+</Project>

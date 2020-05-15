@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata minClientVersion="3.3">
+    <id>SolidStack.Coroutines</id>
+    <version>0.0.2</version>
+    <title>Solid Coroutines for Unity and .NET</title>
+    <authors>SolidStack.org</authors>
+    <description>Solid Coroutines for Unity and .NET</description>
+    <repository type="git" url="https://github.com/solidstack-org/SolidStack.Coroutines" branch="master"/>
+    <contentFiles>
+      <files include="*" />
+    </contentFiles>
+  </metadata>
+</package>

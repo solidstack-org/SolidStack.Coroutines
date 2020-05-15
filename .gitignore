@@ -46,5 +46,5 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
-bin/Debug/
-bin/Release/
+**/bin/Debug/
+**/bin/Release/

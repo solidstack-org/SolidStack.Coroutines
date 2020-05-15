@@ -1,0 +1,15 @@
+{
+  "name": "com.solidstack.coroutines",
+  "unity": "2018.3",
+  "version": "0.0.3",
+  "displayName": "SolidStack.Coroutines",
+  "author": "SolidStack",
+  "description": "SolidStack.Coroutines - Solid Coroutine Library for Unity and .NET",
+  "keywords": [
+    "coroutines",
+    "enumerators",
+    "solid"
+  ],
+  "category": "coroutines",
+  "dependencies": {}
+}
