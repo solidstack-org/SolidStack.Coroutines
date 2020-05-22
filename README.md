@@ -39,8 +39,8 @@ PM> Install-Package SolidStack.Coroutines
 
 ## Basic Usage
 
-SolidStack.Coroutines allow you to run coroutines outside of Unity (or any other) native update loop.
-It allows you to pass it as an interface, and provide different implementations (e.g. test time). 
+SolidStack.Coroutines allows you to run coroutines outside of Unity (or any other) native update loop.
+It allows you to pass it as an interface, and provide different implementations (e.g. during test time). 
 You can choose to provide a mock implementation in your unit tests, or use a real one and control how it ticks in your integration tests.
 
 
@@ -103,7 +103,7 @@ To create a new instance of CoroutineService in Unity, use `CoroutineServiceRunn
 
 ### Using in Unity coroutine
 
-You can use a SolidStack coroutine to block Unity coroutine:
+You can use a SolidStack coroutine to delay Unity coroutine:
 
 ```csharp
 class MyBehaviour : MonoBehaviour
