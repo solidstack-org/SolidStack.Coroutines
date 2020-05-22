@@ -1,6 +1,7 @@
 # SolidStack.Coroutines
 
-Solid Coroutine Library for Unity and .NET
+Solid Coroutine Library for Unity and .NET.
+Supports integration with Unity Coroutines and Tasks, including async/await API.
 
 ## Installation
 
