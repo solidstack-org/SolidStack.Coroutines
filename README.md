@@ -23,7 +23,7 @@ Using Unity Package Manager (packages.json):
 
 Using NuGet:
 ```powershell
-PM> Install-Package StackExchange.Redis
+PM> Install-Package SolidStack.Coroutines
 ```
 
 
